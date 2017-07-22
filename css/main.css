@@ -76,7 +76,7 @@ height: 80px;
 .features {
 background-color: #F6F6F6;
 	color: #616161;
-	height: 450px;
+	height: 550px;
 }
 .item {
 	float: left;
@@ -98,9 +98,10 @@ background-color: #F6F6F6;
 	color: #D8D8D8;
 	text-align: center;
 }
-.footer h4 {
+ h4 {
 	font-size: 24px;
-	margin: 50px 0 25px 0;
+	margin-top: 100px;
+  padding: 25px;
 }
 .footer p {
 	color: grey;
@@ -115,9 +116,10 @@ background-color: #F6F6F6;
 }
 #socialIcons a {
 	color: #FFFFFF;
+  padding: 10px;
 }
 #socialIcons .fa-twitter {
-	background-color: blue;
+	background-color: cyan;
 	border-radius: 60%;
 	padding: 8px;
 }
@@ -125,4 +127,13 @@ background-color: #F6F6F6;
 	background-color: blue;
 	border-radius: 50%;
 	padding: 5px 8px;
+}
+@media (max-width: 800px){
+  div{
+    width: 80%;
+  }
+  body{
+   background-color: crimson;
+   font-size: 10px;
+}
 }
