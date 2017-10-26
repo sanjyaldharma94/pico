@@ -3,12 +3,14 @@
   padding: 0;
 }
 body {
-  background-color: #2A2A2A;
+  background-color: #3a0420;
   font-size: 16px;
 }
 .navigation {
-background-color: #272727;
+  margin: 0;
+background-color: #3a0420;
 height: 80px;
+position: static:;
 }
 .navigation .logo {
   color: #fff;
@@ -18,6 +20,11 @@ height: 80px;
   line-height: 20px;
   padding: 15px 15px 15px 35px;
   margin-top: 15px;
+
+}
+.navigation .logo:hover{
+ color: tomato;
+ font-size: 32px;
 }
 .navigation ul {
   float: right;
@@ -39,29 +46,38 @@ height: 80px;
   text-decoration: none;
   text-transform: uppercase;
 }
+.navigation a:hover {
+  color: red;
+}
 /*Header*/
-.header{
+.heading{
+  margin: 0;
+  background-color: #202020;
   color: #D8D8D8;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  height:540px;
 }
-.header h1{
+.heading h1{
+  background-color: #202020;
   font-size: 50px;
   font-weight: 310;
-  margin-top: 75px;
+  padding: 50px 0 30px 0;
+  font-style: italic;
 }
-.header h1 > span{
-  font-weight: italic;
+.heading h1 > span{
+  font-style: italic;
 }
-.header h2{
+.heading h2{
+  padding: 50px 0 30px 0;
+  line-height: 50px;
   font-size: 38px;
   font-weight: 290;
-  margin: 30px 0;
 }
-.header h2 > span{
+.heading h2 > span{
   color: #EB615B;
 }
-.header a {
+.heading a {
   background-color: blue;
   border: none;
   border-radius: 10px;
@@ -72,11 +88,13 @@ height: 80px;
   text-decoration: none;
   text-transform: uppercase;
 }
-/*features*/
-.features {
-background-color: #F6F6F6;
-	color: #616161;
-	height: 550px;
+#about{
+  background-color:#ebebeb;
+  height: 600px;
+}
+#about h1 {
+  text-align: center;
+  padding: 25px 0 30px 0;
 }
 .item {
 	float: left;
@@ -94,21 +112,22 @@ background-color: #F6F6F6;
 	padding: 10px 0;
 }
 /** FOOTER **/
-.footer {
+.end {
+  background-color:;
 	color: #D8D8D8;
 	text-align: center;
 }
- h4 {
-	font-size: 24px;
-	margin-top: 100px;
+  .end h4 {
+	font-size: 28px;
   padding: 25px;
+  color: black;
 }
-.footer p {
+.end p {
 	color: grey;
 	font-size: 16px;
 	padding: 3px 0;
 }
-.footer p a {
+.end p a {
 	color: #793F3D;
 }
 #socialIcons {
@@ -116,24 +135,17 @@ background-color: #F6F6F6;
 }
 #socialIcons a {
 	color: #FFFFFF;
-  padding: 10px;
+  padding: 12px;
 }
 #socialIcons .fa-twitter {
-	background-color: cyan;
+  color: blue;
+	background-color: #ebebeb;
 	border-radius: 60%;
 	padding: 8px;
 }
 #socialIcons .fa-facebook {
-	background-color: blue;
-	border-radius: 50%;
-	padding: 5px 8px;
-}
-@media (max-width: 800px){
-  div{
-    width: 80%;
-  }
-  body{
-   background-color: crimson;
-   font-size: 10px;
-}
+  color: blue;
+	background-color: #ebebeb;
+	border-radius: 23px;
+	padding: 10px 15px;
 }
